@@ -52,7 +52,7 @@ const App = () => {
     try {
       const response = await fetch(API_ENDPOINT, requestOptions);
       const result = await response.json();
-      console.log(result);
+
       const titles = result.data.recentAcSubmissionList.map(
         (submission) => submission.title
       );

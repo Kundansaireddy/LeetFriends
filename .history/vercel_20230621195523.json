@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/leetcode-proxy",
+      "destination": "/api/leetcode-proxy.js"
+    },
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}
